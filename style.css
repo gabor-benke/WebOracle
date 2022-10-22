@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(0, 14, 42);
+}
+
+/* Title and Logo */
+
+.main {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.main h1 {
+    color: rgb(246, 250, 188);
+    font-family: 'Righteous', cursive;
+    font-size: 8em;
+    padding-right: 50px;
+    margin: 0;
+}
+
+.main img {
+    width: 15%;
+    height: 15%;
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2em;
+    color: rgb(246, 250, 188);
+    margin: 20px auto 20px auto;
+}
+
+/* Prediction */
+
+#predictionText {
+    color:rgb(227, 240, 56);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 60px 60px;
+    font-family: 'Codystar', cursive;
+    font-size: 3.5em;
+}
+
+/* Button */
+
+.main-button {
+    border: 3px solid rgb(216, 35, 95);
+    color: rgb(216, 35, 95);
+    border-radius: 5px;
+    background-color:rgb(0, 14, 42);
+    padding: 2em 2em;
+    display: flex;
+    font-family: 'Righteous', cursive;
+    font-size: 1.125em;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 90px auto;
+}
+
+.main-button:hover {
+    border: 3px solid rgb(216, 35, 95);
+    color: rgb(0, 14, 42);
+    background-color: rgb(216, 35, 95);
+}
+
+/* Footer */
+
+.footer {
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.credits {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(246, 250, 188);
+}
+
+/* Font Faces */
+
+@font-face {
+    font-family: 'Righteous', cursive;
+    font-style: regular;
+    font-weight: 400;
+    src: url('fonts/Righteous-Regular.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Codystar', cursive;
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Codystar-Regular.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/MontserratAlternates-Medium.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
